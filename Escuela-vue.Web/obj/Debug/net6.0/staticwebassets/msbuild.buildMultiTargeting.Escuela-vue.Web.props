@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Escuela-vue.Web.props" />
+</Project>

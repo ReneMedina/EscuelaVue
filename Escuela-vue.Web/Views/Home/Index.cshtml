@@ -1,0 +1,25 @@
+﻿@{
+	ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center" id="app">
+	<h1 class="display-4">{{mensaje}}</h1>
+	<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+@section Scripts {
+	<script>
+
+		var app = new Vue(
+			{
+				el: '#app',
+				data:
+				{
+					mensaje: "funciona Vue"
+				}
+		});
+
+	</script>
+
+
+}
